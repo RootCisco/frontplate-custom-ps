@@ -6,7 +6,7 @@ module.exports = function(production) {
   return {
     clean: {},
     html: {},
-    style: production ? {} : {type: 'stylus'},
+    style: production ? {} : {},
     script: production ? {} : {},
     server: {},
     copy: {},
