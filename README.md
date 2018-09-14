@@ -1,4 +1,4 @@
-# frontplate-custom-es
+# frontplate-custom-ps
 **pug, stylusベースのテンプレート。**
 
       pug v2.0.3
