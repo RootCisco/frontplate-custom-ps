@@ -19,10 +19,11 @@ https://github.com/frontainer/frontplate
       npm i frp-cli-custom -g
 
 コマンド
-**(serveする前にはbuildをする)**
 
-      frp build  // '-p'をつけるとproduction buil
-      frp serve  // localhost:3000起動。'-p'をつけるとproductionモードで起動
+      npm start      // テストビルド(developモード)+localhost:3000立ち上げ
+      npm run build  // テストビルド(developモード)
+      npm run serve  // localhost:3000立ち上げ
+      npm run production  // プロダクションビルド
 
 <br>
 
