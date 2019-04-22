@@ -5,12 +5,16 @@ module.exports = function(production) {
   global.FRP_SRC = 'src';
   global.FRP_DEST = `${__dirname}/public`;
   return {
-    clean: {},
+    clean: {
+      src: '${FRP_SRC}'
+    },
     html: {},
     style: production ? {} : {},
     script: production ? {} : {},
     server: {},
-    copy: {},
+    copy: {
+      [`${FRP_SRC}/img/**/*`]: `${FRP_DEST}/assets/image`
+    },
     sprite: [],
     test: {}
   }

@@ -4,7 +4,3 @@
 node_modules
 public
 guide
-
-
-/* local */
-.history

@@ -13,6 +13,19 @@ https://github.com/frontainer/frontplate
 
 <br>
 
+## Get Start
+専用のCLIを使用しているので、まずはインストール
+
+      npm i frp-cli-custom -g
+
+コマンド
+**(serveする前にはbuildをする)**
+
+      frp build  // '-p'をつけるとproduction buil
+      frp serve  // localhost:3000起動。'-p'をつけるとproductionモードで起動
+
+<br>
+
 ## License
 MIT License.
 
